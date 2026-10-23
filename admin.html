@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ניהול חדר האוכל</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <h1>ניהול חדר האוכל</h1>
+  <span id="userBar"></span>
+  <a href="index.html">מסך הסועד</a>
+</header>
+<main>
+  <div class="demo-note">אב-טיפוס: בדיקת ההרשאה כאן היא בצד הלקוח בלבד. הגנה אמיתית דורשת שרת.</div>
+  <div id="denied" class="card" hidden>מסך זה זמין למנהל בלבד. בחרו "מנהל חדר האוכל" בבורר המשתמש.</div>
+  <div id="app" hidden>
+    <div class="tabs" id="tabs"></div>
+    <div id="panel"></div>
+  </div>
+</main>
+<script src="js/data.js"></script>
+<script src="js/schedule.js"></script>
+<script src="js/store.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>
